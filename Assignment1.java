@@ -16,9 +16,12 @@ public class Assignment1 {
     Scanner scan = new Scanner(System.in);
 
     // Scanner scan = new Scanner(System.in);
+    // Formula: F = (9/5) * C + 32
 
     // System.out.print("Enter the number in Fahrenheit: ");
     // fahrenheit = scan.nextInt();
+    // int BASE = fahrenheit;
+    // double celsius;
 
     // final double CONVERSION_FACTOR = 9.0 / 5.0;
     System.out.print("Enter the number in Fahrenheit: ");
@@ -26,6 +29,7 @@ public class Assignment1 {
 
     // double fahrenheit;
     // int celsius = 24;
+    // (ORIGINAL) final double CONVERSION_FACTOR = 9.0 / 5.0;
 
     // fahrenheit = celsius * CONVERSION_FACTOR + 32;
     double celsius = (fahrenheit - 32) * 5 / 9;
