@@ -57,5 +57,10 @@ public class Assignment1 {
 
     System.out.println("Reversed middle part of the string: " + reversedMiddlePart);
     System.out.println("Random number between 32 and 16,384: " + randomNumber);
+
+    // end result
+
+    System.out.println("Combined output: " + celsius + reversedMiddlePart + randomNumber);
+
   }
 }
