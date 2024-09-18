@@ -11,8 +11,6 @@ public class Assignment1 {
     System.out.println(" CCCC          HHHH    HHHH") ;
     System.out.println("   CCCCCCC     HHHH    HHHH") ;
 
-    // int BASE = fahrenheit;
-    // double celsius;
     Scanner scan = new Scanner(System.in);
 
     // Formula: F = (9/5) * C + 32
