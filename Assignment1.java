@@ -27,5 +27,18 @@ public class Assignment1 {
 
     System.out.println("Celsius Temperature: " + celsius);
     System.out.println("Fahrenheit Equivalent: " + fahrenheit);
+    Scanner scanner = new Scanner(System.in);
+    Random random = new Random();
+
+    System.out.print("Enter a 5-character string: ");
+    String input = scanner.nextLine();
+
+    String middlePart = input.substring(1, 4);
+    String reversedMiddlePart = new StringBuilder(middlePart).reverse().toString();
+
+    int randomNumber = 32 + random.nextInt(16384 - 32 + 1);
+
+    System.out.println("Reversed middle part of the string: " + reversedMiddlePart);
+    System.out.println("Random number between 32 and 16,384: " + randomNumber);
   }
 }
