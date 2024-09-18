@@ -13,6 +13,7 @@ public class Assignment1 {
 
     // int BASE = fahrenheit;
     // double celsius;
+    Scanner scan = new Scanner(System.in);
 
     // Scanner scan = new Scanner(System.in);
 
@@ -20,13 +21,18 @@ public class Assignment1 {
     // fahrenheit = scan.nextInt();
 
     // final double CONVERSION_FACTOR = 9.0 / 5.0;
+    System.out.print("Enter the number in Fahrenheit: ");
+    double fahrenheit = scan.nextDouble();
 
     // double fahrenheit;
     // int celsius = 24;
 
     // fahrenheit = celsius * CONVERSION_FACTOR + 32;
+    double celsius = (fahrenheit - 32) * 5 / 9;
 
     // System.out.println("Celsius Temperature: " + celsiusTemp);
     // System.out.println("Fahrenheit Equivalent: " + fahrenheitTemp);
+    System.out.println("Celsius Temperature: " + celsius);
+    System.out.println("Fahrenheit Equivalent: " + fahrenheit);
   }
 }
